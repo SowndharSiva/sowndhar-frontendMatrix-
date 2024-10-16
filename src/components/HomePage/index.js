@@ -2,7 +2,7 @@ import "./index.css"
 
 const HomePage=()=>{
     return(
-        <div className="home-bg">
+        <div className="home-bg" style={{ backgroundImage: "url(/image.png)"}}>
             <div className="menu-bar">
                 <img src="\image bg.png" alt="logo"/>
                 <img src="https://cdn-icons-png.flaticon.com/128/9652/9652559.png" alt="menu" className="menu-icon"/>
