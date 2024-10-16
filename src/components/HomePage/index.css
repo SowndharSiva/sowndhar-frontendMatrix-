@@ -1,0 +1,211 @@
+.home-bg {  
+    background-size: cover;  
+    height: 100vh;  
+    background-image: url("D:\MatrixLabs\matrixlab\public\image.png");
+}  
+.top-bar{
+    display:flex;
+    flex-direction:row;
+    position:absolute;
+    left:32%;
+    justify-content: space-between;
+}
+.top-bar nav{
+    width: 553px;
+    height: 40px;
+    gap: 0px;
+    border-radius:20px;
+    opacity: 0px;
+    background: #0C2B2FB2;
+    backdrop-filter: blur(10px);
+    margin-top:29px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: var(--fontfamilyFont1);
+    font-size: 14px;
+    text-align: left;
+    color: rgba(176, 250, 255, 0.7);
+    padding-top: 13px;
+    border: 1px solid rgba(15, 55, 60, 1);
+}
+.top-bar div{
+    margin-top:29px;
+    position: relative;
+    left:20%;
+}
+.top-bar button{
+    width: Hug (47px)px;
+    height: Fixed (48px)px;
+    gap: 0px;
+    opacity: 0px;
+    border:none;
+    margin-top:12px;
+    margin-right:20px;
+}
+.login{
+    background: transparent;
+    color:white;
+}
+.nav-button{
+    width: Fixed (139.71px)px;
+    height: Hug (44px)px;
+    padding: 12px 24px 12px 24px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+    box-shadow: 0px 1px 1px 1px rgba(76, 221, 253, 1) ;
+    background-color: rgba(205, 252, 255, 1);
+    color: black;
+    font-weight: 500;
+}
+.content-div h1{
+    width: Fixed (680px)px;
+    height: Hug (168px)px;
+    top: 3px;
+    color:white;
+    left: 380px;
+    gap: 8px;
+    opacity: 0px;
+    font-family: var(--fontfamilyFont1);
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 76px;
+    text-align: center;
+}
+.content-div{
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    top:35%;
+    align-items: center;
+
+}
+.content-div span{
+    background: rgba(176, 249, 255, 1);
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    border-radius: 56px;
+    margin-top:6px;
+    color: blacK;
+    font-size: 60px;  
+}
+.content-div p{
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(176, 250, 255, 0.7);
+
+}
+.content-div button{
+    width: 131px;
+    height:44px;
+    border-radius: 12px;
+    color: #B0FAFFB2;
+    border:1px solid #B0FAFFB2;
+    background: transparent;
+}
+
+@media screen and (max-width:512px) {
+    .top-bar{
+        display: none;
+    }
+    .home-bg{
+        background:  #00161D;
+        height:100vh;
+        padding:10px;
+
+    }
+    .menu-bar{
+        background: #0C2B2FB2;
+        border: 1px solid #0F373C;
+        width: 370.5px;
+        height: 64px;
+        border-radius: 48px;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding:0px 7px 0px 7px;
+        position: relative;
+        
+    }
+    .top-bar button{
+        display: none;
+    }
+    .menu-bar img{
+        height:30px;
+        width:40px;
+        margin-top:14px;
+        margin-left:5px;
+    }
+    .menu-icon{
+        width:34px;
+        color:white;
+        position: relative;
+    }
+    .sub-menu{
+        position: absolute;
+        top:100%;
+        right:0;
+        width:130px;
+        padding:20px;
+        border-radius: 5px;
+        display:none;
+        background-color:white;
+        color:black;
+        z-index: 1;
+    }
+    .sub-menu hr{
+        border:none;
+        height:1px;
+        background:#a4a4a4 ;
+        margin:8px 0px;
+    }
+    .sub-menu p{
+        cursor: pointer;
+        font-size: 14px;
+        
+    }
+    .menu-bar:hover .sub-menu{
+        display: block;
+    }
+    
+    .content-div h1{
+        font-size: 37px;
+    }
+    .content-div span{
+        font-size: 37px;
+    }
+
+    .content-div button{
+        box-shadow: 0px 0px 1px 1px #4CDDFD inset;
+
+        box-shadow: 0px 1px 1px 0px #4CDDFD inset;
+
+        box-shadow: 0px 0px 4px 2px #FFFFFF1F inset;
+
+        box-shadow: 0px -8px 16px -4px #37C5E599 inset;
+
+        box-shadow: 0px 6px 20px 0px #37C5E51F;
+
+        box-shadow: 0px 4px 12px 0px #37C5E51F;
+
+        box-shadow: 0px 4px 6px 0px #37C5E51F;
+
+        box-shadow: 0px 1px 4px 0px #37C5E51F;
+
+    }
+    .content-div{
+        top:20%;
+    }
+    
+
+    
+
+}
+@media screen and ( min-width:513px) {
+    .menu-bar{
+        display: none;
+    }
+}

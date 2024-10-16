@@ -1,0 +1,178 @@
+.features-bg {  
+    background: #00161D;  
+    padding: 20px;  
+    padding-top: 30px;  
+    min-height: 130vh; /* You may want to set this to min-height if necessary */  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+}  
+
+.container {  
+    background-color: #0F373C;  
+    display: flex;  
+    flex-direction: column;  
+    padding: 10px;  
+    justify-content: space-evenly;  
+    border: 1px solid #0F373C;  
+}  
+
+.f-container {  
+    display: flex;  
+    flex-direction: row;  
+    margin-left: 7%;  
+}  
+
+.borders {  
+    width: 100px;  
+    height: 100px;  
+    gap: 0px;  
+    border-radius: 16px;  
+    border: 6px solid #0E8B9A;  
+    background-color: #15B6C9;  
+    opacity: 1;  
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+}  
+
+.one {  
+    width: 18%;  
+    height: 500px;   
+    border-radius: 40px 10px 10px 10px;  
+    text-align: center;  
+    display: flex;  
+    align-items: center;  
+}  
+
+.borders div {  
+    border: white 1px solid;  
+    border-radius: 9px;  
+    height: 40px;  
+    width: 40px;  
+}  
+
+.container h1 {  
+    color: #FFFFFF;  
+}  
+
+.container p {  
+    color: #B0FAFFB2;  
+}  
+
+.two {  
+    width: 700px;  
+    height: 230px;  
+    border-radius: 10px;  
+    margin: 10px;  
+    margin-top: 0px;  
+    text-align: start;  
+    padding-left: 8px;  
+}  
+
+.two p {  
+    width: 350px;  
+}  
+
+.three {  
+    width: 700px;  
+    height: 240px;  
+    border-radius: 10px;  
+    margin: 10px;  
+    margin-top: 10px;  
+    text-align: center;  
+    box-shadow: 0px 1px 25px 0px #1DCEF240 inset;  
+}  
+
+.four {  
+    width: 18%;  
+    height: 500px;  
+    border-radius: 10px 40px 10px 10px;  
+    text-align: center;  
+    display: flex;  
+    flex-direction: column;  
+    justify-content: space-evenly;  
+    align-items: center;  
+}  
+
+.four img {  
+    height: 150px;  
+    aspect-ratio: 1/1;  
+}  
+
+.five {  
+    width: 400px;  
+    height: 230px;  
+    border-radius: 10px 10px 10px 40px;  
+    margin: 10px;  
+    margin-top: 0px;  
+    text-align: start;  
+    padding-left: 8px;  
+    margin-left: 0px;  
+}  
+
+.five p {  
+    width: 350px;  
+}  
+
+.six {  
+    width: 800px;  
+    height: 230px;  
+    border-radius: 10px 10px 10px 40px;  
+    margin: 10px;  
+    margin-top: 0px;  
+    text-align: start;  
+    padding-left: 8px;  
+}  
+
+.f-container1 {  
+    display: flex;  
+    flex-direction: row;  
+}  
+
+.six p {  
+    width: 350px;  
+}  
+
+/* Changes made for mobile views */  
+@media screen and (max-width: 512px) {  
+    .f-container {  
+        flex-direction: column;  
+        gap: 10px;  
+        align-items: center; /* Center-align items */  
+        margin-left: 0; /* Remove left margin */  
+    }  
+
+    .container {  
+        border-radius: 30px;  
+        width: 90%; /* Make it responsive, ensuring it adjusts to the screen size */  
+        max-width: 400px; /* Add a max width if needed */  
+        margin: 0 auto; /* Center the container */  
+    }  
+
+    .one, .four, .five, .six {  
+        width: 100%; /* Make these elements full-width */  
+        height: auto; /* Allow height to adjust based on content */  
+        margin: 10px 0; /* Space between boxes */  
+    }  
+
+    .two, .three {  
+        width: 100%; /* Make these elements full-width */  
+        height: auto; /* Allow adaptation of height based on content */  
+        padding: 8px; 
+        margin-top: 10px;;/* Add padding for better spacing */  
+    }  
+
+    .four img {  
+        width:180px; /* Ensure the image stretches to fit */  
+        height: 90px; /* Maintain aspect ratio */  
+    }  
+
+    .two p, .three p, .five p, .six p {  
+        width: auto; /* Allow paragraphs to adjust */  
+        word-break: break-word; /* Prevent overflow */  
+    }  
+    .f-container1{
+        flex-direction: column;
+    }
+}

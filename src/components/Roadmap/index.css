@@ -1,0 +1,111 @@
+.road-bg{
+    background-color: #00161D;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding-top:10px;
+}
+.title{
+    text-align: center;
+}
+.road-bg h1{
+    font-size: 40px;  
+    font-weight: 500;  
+ 
+    color: #FFFFFF;  
+    margin-right: 0px;
+}
+.rp-container{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    position: relative;
+    margin-top: 100px;
+}
+.phase{
+    width:  71px;
+    height: 28px;
+    padding: 6px 12px 6px 12px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    background: #F7F7F7;
+}
+.child-cont{
+    display:flex;
+    flex-direction: column;
+    margin-bottom:20px;
+}
+.point{
+    color:white;
+}
+.child-cont div{
+    display:flex;
+    flex-direction: row;
+}
+.child-cont img{
+    height:30px;
+    aspect-ratio: 1/1;
+    margin:8px 8px 8px 0px;
+}
+.image{
+    position: relative;
+    left:13%;
+    height:400px;
+    width:600px;
+    z-index: 4;
+    
+}
+.img-cont{
+    position: relative;
+    left:7%;
+    height:400px;
+    width:600px;
+    z-index: 7;
+    box-shadow:20px #00161D inset;
+
+}
+
+.img-cont1{
+    position: relative;
+    right:18%;
+    height:400px;
+    width:600px;
+    z-index: 7;
+    box-shadow:20px #00161D inset;
+
+}@media (max-width: 512px) {  
+    .road-bg h1 {  
+        font-size: 24px; /* Smaller font size for header */  
+    }  
+
+    .rp-container {  
+        flex-direction: column; /* Stack phases vertically on small screens */  
+        margin-top: 50px; /* Reduce top margin */  
+        align-items: center; /* Center align on mobile */  
+    }  
+
+    .phase {  
+        width: 60%; /* Make the phase take up more width */  
+        height: auto; /* Auto height for flexibility */  
+        margin: 10px 0; /* Add margin for spacing */  
+        opacity: 1; /* Fully visible on mobile */  
+    }  
+
+    .image, .img-cont, .img-cont1 {  
+        width: 90%; /* Responsive width */  
+        height: auto; /* Auto height for flexibility */  
+        left: 0; /* Reset positioning */  
+        right: 0; /* Reset positioning */  
+        margin: 0 auto; /* Center images */  
+        box-shadow: none; /* Optionally remove shadow for smaller screens */  
+    }  
+
+    .child-cont img {  
+        height: 20px; /* Smaller icon size on mobile */  
+    }  
+
+    .child-cont {  
+        align-items: center; /* Center the child contents */  
+    }  
+}  

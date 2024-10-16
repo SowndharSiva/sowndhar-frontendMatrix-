@@ -1,0 +1,67 @@
+.abt-bg{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00161D;
+    height:60vh;
+}
+.abt-div{
+    background-color:#0F373C;
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    align-items: center;
+    justify-content: space-evenly;
+    border:1px solid #0F373C;
+    width:700px;
+    height:280px;
+    border-radius:  10px;
+    margin:10px;
+    margin-top:10px;
+    text-align: center;
+    box-shadow: 0px 1px 25px 0px #1DCEF240 inset;
+}
+.abt-div button{
+    width: 139.71px;
+    height: 44px;
+    padding: 12px 24px 12px 24px;
+    gap: 0px;
+    border-radius: 12px ;
+    opacity: 0px;
+    background: #CDFCFF;
+    border:none;
+    color:white;
+    box-shadow: 0px 0px 1px 1px #4CDDFD inset;
+
+    box-shadow: 0px 1px 1px 0px #4CDDFD inset;
+
+    box-shadow: 0px 0px 4px 2px #FFFFFF1F inset;
+
+    box-shadow: 0px -8px 16px -4px #37C5E599 inset;
+
+    box-shadow: 0px 6px 20px 0px #37C5E51F;
+
+    box-shadow: 0px 4px 12px 0px #37C5E51F;
+
+    box-shadow: 0px 4px 6px 0px #37C5E51F;
+
+    box-shadow: 0px 1px 4px 0px #37C5E51F;
+
+}
+.abt-div p{
+        color:white;
+    
+}
+.abt-div h1{
+    color:white;
+}
+.abt-div span{
+    color: #15B6C9;
+
+}
+
+@media screen and (max-width:512px){
+    .abt-div{
+        height: auto;
+    }
+}
