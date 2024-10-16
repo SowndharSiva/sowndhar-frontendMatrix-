@@ -9,7 +9,6 @@ const Features=()=>{
                     <div className="borders">
                         <div></div>
                     </div>
-                    <img src=""/>
                     <h1>Trade Optimizer</h1>
                     <p>Find the right moments to buy or sell, with personalized trade suggestions designed to help you make the most of every opportunity. </p>
                 </div>
@@ -23,7 +22,7 @@ const Features=()=>{
                     </div>
                 </div>
                 <div className="container four">
-                    <img src="\circuit.png" />
+                    <img src="\circuit.png" alt="circuit"/>
                     <h1>Risk Guard </h1>
                     <p>Get alerts on market swings and potential risks before they impact your portfolio. This agent helps you navigate volatility and stay prepared for anything. </p>
 
